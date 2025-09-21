@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Funnel+Display:wght@300..800&family=Lexend+Exa:wght@100..900&family=Lexend:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+
+
+@theme {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+
+  @keyframes wiggle {
+
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+}
